@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             if Int(randomNnumber) == guessInt {
             resultLabel.text = "PERFECT!"
             } else {
-                resultLabel.text = "Please Try Again!"
+                resultLabel.text = "Nope, It was a \(randomNnumber)"
             }
             
         } else {
